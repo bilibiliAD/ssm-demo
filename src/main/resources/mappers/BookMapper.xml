@@ -74,15 +74,11 @@
         from ssm_book where id=#{id}
     </select>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     
     <delete id="delBook" parameterType="String" >
         delete from
         ssm_book where id=#{id}
     </delete>
-=======
->>>>>>> 885672411e49830e23c530542af763b8a444048e
-=======
->>>>>>> 885672411e49830e23c530542af763b8a444048e
+
 </mapper>

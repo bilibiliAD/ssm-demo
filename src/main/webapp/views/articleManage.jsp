@@ -34,7 +34,7 @@
     <thead data-options="frozen:true">
     <tr>
         <th field="cb" checkbox="true" align="center"></th>
-        <th field="id" width="10%" align="center" hidden="true">编号</th>
+        <th field="id" width="10%" align="center">编号</th>
         <th field="articleTitle" width="200" align="center">标题</th>
         <th field="articleCreateDate" width="150" align="center">创建时间</th>
         <th field="addName" width="150" align="center">添加人</th>
@@ -207,6 +207,7 @@
     function formatHref(val, row) {
         return "<a href='${pageContext.request.contextPath}/article.html?id=" + row.id + "' target='_blank'>查看详情</a>";
     }
+
 
     function resetValue() {
         $("#title").val("");

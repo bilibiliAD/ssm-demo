@@ -66,21 +66,10 @@
         <a href="javascript:openBookAddDialog()" class="easyui-linkbutton"
            iconCls="icon-add" plain="true">添加</a> <a
             href="javascript:openBookModifyDialog()"
-<<<<<<< HEAD
-<<<<<<< HEAD
+
             class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a> <a
             href="javascript:deleteBook()" class="easyui-linkbutton"
             iconCls="icon-remove" plain="true">删除</a>
-=======
-            class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a><%-- <a
-            href="javascript:deletePicture()" class="easyui-linkbutton"
-            iconCls="icon-remove" plain="true">删除</a>--%>
->>>>>>> 885672411e49830e23c530542af763b8a444048e
-=======
-            class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a><%-- <a
-            href="javascript:deletePicture()" class="easyui-linkbutton"
-            iconCls="icon-remove" plain="true">删除</a>--%>
->>>>>>> 885672411e49830e23c530542af763b8a444048e
     </div>
 
     <div>
@@ -229,8 +218,6 @@
         });
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     function deleteBook() {
         var selectedRows = $("#dg").datagrid('getSelections');
@@ -262,10 +249,7 @@
 
     }
 
-=======
->>>>>>> 885672411e49830e23c530542af763b8a444048e
-=======
->>>>>>> 885672411e49830e23c530542af763b8a444048e
+
     function closeBookDialog() {
         $("#dlg").dialog("close");
         //  resetValue();

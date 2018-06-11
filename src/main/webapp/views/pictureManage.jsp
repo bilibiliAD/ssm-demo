@@ -75,7 +75,7 @@
                     <input type="text" id="desc" name="url" value="" required="true" class="easyui-validatebox" style="border:1px #9c9c9c solid;height:25px;"/>
                     <input type="hidden" name="type" value="<%=type%>"/>
                     <input type="hidden" name="grade" value="<%=grade%>"/>
-                    <input type="hidden" name="time" id="time"/>
+                    <input type="text" name="time" id="time"/>
                 </div>
             </div>
         </div>
