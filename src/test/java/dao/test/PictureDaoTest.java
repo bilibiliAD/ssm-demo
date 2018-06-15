@@ -2,7 +2,6 @@ package dao.test;
 
 import com.ssm.maven.core.dao.PictureDao;
 import com.ssm.maven.core.entity.Picture;
-import com.ssm.maven.core.service.PictureService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * Created by 13 on 2017/3/30.
  */
 @RunWith(SpringJUnit4ClassRunner.class) //指定测试用例的运行器 这里是指定了Junit4
-@ContextConfiguration("classpath:spring-context.xml")
+@ContextConfiguration("classpath:spring/spring-context.xml")
 public class PictureDaoTest {
     @Autowired
     private PictureDao pictureDao;
