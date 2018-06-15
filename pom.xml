@@ -211,6 +211,12 @@
         </dependency>
         <!-- End: druid -->
 
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.5</version>
+        </dependency>
+
     </dependencies>
     <build>
         <defaultGoal>install</defaultGoal>
@@ -237,7 +243,6 @@
                     <server>tomcat7</server>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
