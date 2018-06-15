@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppC
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration({"classpath*:/spring/spring-context.xml", "classpath*:/spring/spring-context-mvc.xml", "classpath*:/mybatis-config.xml"})
+@ContextConfiguration({"classpath*:/spring-context.xml", "classpath*:/spring-context-mvc.xml", "classpath*:/mybatis-config.xml"})
 @TransactionConfiguration(defaultRollback = false)
 @Transactional
 public class StoreControllerTest {
